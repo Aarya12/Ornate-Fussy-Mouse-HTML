@@ -193,12 +193,14 @@
 }
 .shop-container01 {
   gap: var(--dl-space-space-oneandhalfunits);
+  width: 1126px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
 .shop-hero-heading {
+  width: 824px;
   max-width: 800px;
   text-align: center;
 }
