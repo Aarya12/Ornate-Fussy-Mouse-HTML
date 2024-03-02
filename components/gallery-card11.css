@@ -32,6 +32,11 @@
 
 
 
+@media(max-width: 1200px) {
+  .gallery-card11-root-class-name2 {
+    width: auto;
+  }
+}
 @media(max-width: 767px) {
   .gallery-card11-gallery-card {
     flex-direction: column;

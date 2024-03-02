@@ -208,9 +208,13 @@
 }
 .home-btn-group {
   gap: var(--dl-space-space-oneandhalfunits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: row;
+}
+.home-hero-button2 {
+  text-decoration: none;
 }
 .home-features {
   flex: 0 0 auto;

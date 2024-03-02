@@ -32,6 +32,11 @@
 
 
 
+@media(max-width: 1200px) {
+  .gallery-card11-root-class-name2 {
+    width: auto;
+  }
+}
 @media(max-width: 767px) {
   .gallery-card11-gallery-card {
     flex-direction: column;
@@ -221,15 +226,6 @@
   align-items: center;
   flex-direction: row;
 }
-.shop-features {
-  flex: 0 0 auto;
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .shop-pricing {
   flex: 0 0 auto;
   width: 100%;
@@ -248,8 +244,8 @@
 }
 .shop-gallery {
   flex: 1;
-  width: 2030px;
-  height: 1889px;
+  width: 1876px;
+  height: 1441px;
   display: grid;
   padding: var(--dl-space-space-threeunits);
   grid-gap: var(--dl-space-space-unit);
@@ -339,6 +335,10 @@
   }
   .shop-burger-menu {
     display: flex;
+  }
+  .shop-gallery {
+    width: 1183px;
+    height: 1459px;
   }
 }
 @media(max-width: 991px) {
