@@ -436,9 +436,8 @@
   .home-burger-menu {
     display: flex;
   }
-  .home-container01 {
-    width: 598px;
-    height: 177px;
+  .home-hero-button2 {
+    margin-top: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 991px) {
