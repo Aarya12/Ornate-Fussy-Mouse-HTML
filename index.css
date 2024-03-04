@@ -206,12 +206,8 @@
   font-size: 18px;
   text-align: center;
 }
-.home-btn-group {
-  gap: var(--dl-space-space-oneandhalfunits);
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+.home-hero-button1 {
+  text-decoration: none;
 }
 .home-hero-button2 {
   text-decoration: none;
@@ -440,6 +436,10 @@
   .home-burger-menu {
     display: flex;
   }
+  .home-container01 {
+    width: 598px;
+    height: 177px;
+  }
 }
 @media(max-width: 991px) {
   .home-hero1 {
@@ -585,9 +585,6 @@
   }
   .home-container01 {
     margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-btn-group {
-    flex-direction: column;
   }
   .home-features1 {
     padding-top: var(--dl-space-space-twounits);
